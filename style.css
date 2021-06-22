@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home{
+    background-image: url(bg3.jpg);
+    background-color: aliceblue;
+    background-size: 50% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background:linear-gradient(rgb(0, 0, 0.75),rgba(0, 0, 0.75)),url(bg3.jpg); */
+    width:100vw;
+    height:100vh;
+}
+
+.logo img{
+    float:left;
+    height:16vh;
+}
+
+.nav ul li{
+    list-style:none;
+float: right;
+margin: 15px;
+padding:6px;
+margin-right: 60px;
+position:relative;
+right: 62px;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+
+.main{
+    font-size:26px;
+    position: absolute;
+    width:50%;
+    height:44%;
+    top:30%;
+    left: 25%;
+    text-align: center;
+}
+
+
+.btn {
+    background: #439dd9;
+    background-image: -webkit-linear-gradient(top, #439dd9, #2980b9);
+    background-image: -moz-linear-gradient(top, #439dd9, #2980b9);
+    background-image: -ms-linear-gradient(top, #439dd9, #2980b9);
+    background-image: -o-linear-gradient(top, #439dd9, #2980b9);
+    background-image: linear-gradient(to bottom, #439dd9, #2980b9);
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 34px;
+    font-family: Courier New;
+    color: #000000;
+    font-size: 25px;
+    padding: 11px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #00ff77;
+    background-image: -webkit-linear-gradient(top, #00ff77, #2afc6d);
+    background-image: -moz-linear-gradient(top, #00ff77, #2afc6d);
+    background-image: -ms-linear-gradient(top, #00ff77, #2afc6d);
+    background-image: -o-linear-gradient(top, #00ff77, #2afc6d);
+    background-image: linear-gradient(to bottom, #00ff77, #2afc6d);
+    text-decoration: none;
+  }
+  .btn1{
+    background:#00ff77 ;
+    background-image: -webkit-linear-gradient(top, #439dd9, #2980b9);
+    background-image: -moz-linear-gradient(top, #439dd9, #2980b9);
+    background-image: -ms-linear-gradient(top, #439dd9, #2980b9);
+    background-image: -o-linear-gradient(top, #439dd9, #2980b9);
+    background-image: linear-gradient(to bottom, #439dd9, #2980b9);
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 34px;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover{
+    background: #439dd9;
+    background-image: -webkit-linear-gradient(top, #00ff77, #2afc6d);
+    background-image: -moz-linear-gradient(top, #00ff77, #2afc6d);
+    background-image: -ms-linear-gradient(top, #00ff77, #2afc6d);
+    background-image: -o-linear-gradient(top, #00ff77, #2afc6d);
+    background-image: linear-gradient(to bottom, #00ff77, #2afc6d);
+    text-decoration: none;
+  }
+
+  .btn{
+      position: relative;
+      right: 20px;
+      top: 25%;
+  }
+  .btn1{
+      position: relative;
+      left: 20px;
+      top: 25%;
+  }
+
+
+.b1,.b2,.b3{
+    position: relative;
+    top: 65px;
+    line-height: 46px;
+}
+h1,h2,h3{
+    text-transform:uppercase ;
+    margin: 2px;
+}
+.hhhh3{
+    color: rgb(226, 136, 0);
+}
+.hhhh4{
+    color: rgb(218, 0, 73);
+}
+.hhhh5{
+    color: rgb(98, 250, 37);
+}
+.hhh2{
+    color: rgb(42, 255, 237);
+}
+.hhh3{
+    color: rgb(17, 180, 245);
+}
+
+.hh1{
+    color: red;
+}
+.hh2{
+    color: rgb(21, 255, 0);
+}
+.hh3{
+    color: rgb(255, 174, 0);
+}
+.hh4{
+    color: rgb(220, 255, 20);
+}
+.hh5{
+    color: rgb(0, 119, 255);
+}
+.hh6{
+    color: rgb(124, 36, 184);
+}
+.hh7{
+    color: rgb(153, 231, 101);
+}
+.hh8{
+    color: rgb(0, 34, 73);
+}
+.hh9{
+    color: rgb(65, 128, 7);
+}
+.hh10{
+    color: rgb(245, 9, 233);
+}
+.hh11{
+    color: rgb(153, 10, 10);
+}
+.hh12{
+    color: rgb(0, 156, 0);
+}
+.hh13{
+    color: rgb(255, 189, 67);
+}
+.hh14{
+    color: rgb(100, 0, 0);
+}
+.hh15{
+    color: rgb(62, 5, 85);
+}
+.hh16{
+    color: rgb(243, 182, 13);
+}
+.hh17{
+    color: rgb(0, 170, 9);
+}
+.hh18{
+    color: rgb(243, 0, 53);
+}
+.hh19{
+    color: rgb(201, 197, 0);
+}
+.hh20{
+    color: rgba(233, 210, 0, 0.589);
+}
+.hh21{
+    color: rgb(153, 87, 0);
+}
+.hh22{
+    color: rgb(20, 0, 110);
+}
+
+
